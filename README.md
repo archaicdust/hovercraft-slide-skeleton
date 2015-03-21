@@ -16,3 +16,5 @@ After edit slide.rst
 
    $ make html
 
+## Tip - [LiveReload](https://github.com/livereload/LiveReload)
+
