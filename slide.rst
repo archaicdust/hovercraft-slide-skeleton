@@ -1,3 +1,5 @@
+:skip-help: true
+:auto-console: false
 
 :data-transition-duration: 1500
 :css: hovercraft.css
@@ -165,6 +167,5 @@ Reference
 ==============
 
 `git? tig! <http://blogs.atlassian.com/2013/05/git-tig/>`_
-
 
 
