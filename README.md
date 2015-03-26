@@ -38,3 +38,13 @@ Setting
     $ gem install guard-livereload
 
     $ bundle exec guard
+
+For example
+
+    $ rvm use 2.2.1
+    $ rvm gemset create guard-livereload
+    $ rvm gemset use guard-livereload
+
+    $ cd hovercraft-slide-skeleton
+    $ bundle install
+    $ bundle exec guard
