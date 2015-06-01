@@ -3,6 +3,9 @@
 
 [hovercraft](https://github.com/regebro/hovercraft)
 
+Example:
+[example/index.html](http://htmlpreview.github.io/?https://github.com/archaicdust/hovercraft-slide-skeleton/blob/master/example/2015-06-01_ming.html#/step-1)
+
 # ENV
 
     # Optional: pyvenv
