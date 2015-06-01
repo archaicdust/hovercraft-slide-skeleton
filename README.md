@@ -5,6 +5,10 @@
 
 # ENV
 
+    # Optional: pyvenv
+    $ pyvenv hovercraft-env
+    $ source hovercraft-env/bin/activate
+
     $ git clone https://github.com/archaicdust/hovercraft-slide-skeleton.git
     $ cd hovercraft-slide-skeleton
 
