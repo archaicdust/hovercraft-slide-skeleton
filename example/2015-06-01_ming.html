@@ -1,0 +1,85 @@
+<!DOCTYPE html><html xmlns="http://www.w3.org/1999/xhtml"><head><title>tig (Git)</title><meta name="generator" content="Hovercraft! 1.0 http://regebro.github.com/hovercraft"></meta><link rel="stylesheet" href="css/hovercraft.css" media="all"></link><link rel="stylesheet" href="css/impressConsole.css" media="all"></link><link rel="stylesheet" href="css/highlight.css" media="all"></link><link rel="stylesheet" href="hovercraft.css" media="screen,projection"></link></head><body class="impress-not-supported"><div id="impress" data-transition-duration="1500" auto-console="false"><div class="step" step="0" data-x="0" data-y="0"><h1 id="tig-a-front-end-to-git">tig (A front-end to Git)</h1><pre class="highlight ">archaicdust@gmail.com</pre></div><div class="step" step="1" data-x="1600" data-y="0"><h1 id="tig-history-view">tig History view</h1><pre class="highlight ">&gt;&gt;&gt; git log
+
+&gt;&gt;&gt; tig
+
+&gt;&gt;&gt; tig --all
+
+h (help view)
+
+j/k
+
+/ search summary or author
+
+t open tree view
+
+Enter on a commit
+
+  a split diff view
+
+shift-S in the main veiw
+
+  go to status view</pre></div><div class="step" step="2" data-x="3200" data-y="0"><h1 id="tig-view">tig view</h1><pre class="highlight ">h Show help view
+
+m  Show main view
+
+s, S  Show status view
+
+l  Show log view
+t  Show tree view
+
+r  Show refs view
+
+c  Show stage view
+y  Show stash view
+
+d  Show diff view
+
+b  Show blame view
+f  Show blob view
+g  Show grep view
+p  Show pager view</pre></div><div class="step" step="3" data-x="4800" data-y="0"><h1 id="tig">tig</h1><pre class="highlight ">R, F5 Reload and refresh view
+
+O Maximize the current view
+
+&lt;Tab&gt; view-next
+
+q Close the current view
+Q Close all views and quit
+
+&lt; Go back to the previous view state
+
+&lt;Ctrl-U&gt; move-page-up
+
+&lt;Ctrl-D&gt; move-page-dow</pre></div><div class="step" step="4" data-x="6400" data-y="0"><h1 id="tig-status-view">tig Status view</h1><pre class="highlight ">&gt;&gt;&gt; tig status
+
+
+u
+
+  stage or unstage file
+
+!
+
+  revert all uncommitted changes to that file
+
+
+Enter on a file
+
+  j, k
+
+  @ (navigate chunk by chunk)
+
+  u (stage the current diff chunk)
+
+  @@
+
+  1 (stage a single line)
+
+
+Shift-C (commit)</pre></div><div class="step" step="5" data-x="8000" data-y="0"><h1 id="tig-stash">tig stash</h1><p>P (git stash pop)</p><p>! (git stash drop)</p></div><div class="step" step="6" data-x="9600" data-y="0"><h1 id="tig-blame-view">tig Blame view</h1>&gt;&gt;&gt; tig blame &lt;file&gt;<pre class="highlight ">Just select a line and press Enter,
+and it will show you the last commit that touched that line.
+
+t tree view
+
+S status view
+
+@</pre></div><div class="step" step="7" data-x="11200" data-y="0"><h1 id="reference">Reference</h1><p><a href="http://blogs.atlassian.com/2013/05/git-tig/">git? tig!</a></p></div></div><div id="hovercraft-help" class="hide"><table><tr><th>Space</th><td>Forward</td></tr><tr><th>Left, Down, Page Down</th><td>Next slide</td></tr><tr><th>Right, Up, Page Up</th><td>Previous slide</td></tr><tr><th>P</th><td>Open presenter console</td></tr><tr><th>H</th><td>Toggle this help</td></tr></table></div><script type="text/javascript" src="js/impress.js"></script><script type="text/javascript" src="js/impressConsole.js"></script><script type="text/javascript" src="js/hovercraft.js"></script></body></html>
